@@ -11,56 +11,148 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
+    align-items: start;
+    gap: 10px;
     background-color: white;
+    padding: 5px;
     border-bottom: 1px solid #ddd;
 }
 
-.file-menu button {
-    padding: 5px 10px;
+.icon {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.header-divider {
+    border: 1px solid #ddd;
+    height: 20px;
+}
+
+.header-text {
     font-size: 16px;
-    background-color: #e0e0e0;
-    border: 1px solid #bbb;
-    border-radius: 4px;
-    cursor: pointer;
 }
 
-.toolbar {
+.tool-section {
     display: flex;
+    flex-direction: column;
 }
 
-.section {
+.nav {
     display: flex;
-    margin-right: 20px;
-}
-
-.tool {
-    margin-right: 10px;
-    padding: 10px;
-    background-color: #ddd;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-.color-palette {
-    display: flex;
-}
-
-.color {
-    width: 30px;
-    height: 30px;
-    margin-right: 5px;
-    border: 1px solid #999;
-    cursor: pointer;
-}
-
-.drawing-area {
-    margin: 20px;
-    padding: 20px;
+    list-style-type: none;
+    width: 100%;
     background-color: white;
-    border: 2px solid #999;
-    height: 300px;
+}
+
+.nav-tab {
+    width: 80px;
+    padding: 5px 15px;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+}
+
+.nav-tab:hover {
+    border-bottom: 2px solid #000000;
+}
+
+.nav-tab.file{
+    background-color: rgb(34, 98, 170);
+    color: white
+}
+
+.nav-tab.active {
+    background-color: #ddd;
+}
+
+.toolbox {
+    display: flex;
+    background-color: #ddd;
+}
+
+.tool-divider {
+    border-left: 1px solid #ccc; 
+    border-right: 1px solid #ccc; 
+    padding: 10px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-section {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+.big-icon-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    cursor: pointer;
+}
+
+.icon-main {
+    width: 50px;
+}
+
+.tiny-icon {
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+}
+
+.big-icon-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    height: auto;
+    cursor: pointer;
+    gap: 5px;
+}
+
+.icon-text-pair {
+    display: inline-flex;
+    align-items: center; /* Align icon and text vertically */
+    gap: 5px; /* Adjust the space between icon and text */
+}
+
+.tool-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    grid-template-rows: repeat(2, auto); /* 2 rows with height based on content */
+    gap: 10px;
+    padding: 10px;
+}
+
+.shapes-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); /* 3 equal columns */
+    grid-template-rows: repeat(3, auto); /* 2 rows with height based on content */
+    gap: 10px;
+    background-color: white;
+    padding: 2px;
+    border: 1px solid #bbb;
+}
+.shapes-box {
+    display: flex;
+    border: 1px solid #bbb;
+}
+
+.box-arrow {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    background-color: #ddd;
+    border: 1px solid #bbb;
+    padding: 10px 3px;
 }
