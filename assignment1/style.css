@@ -26,14 +26,14 @@ body {
     padding: 48px;
     margin-bottom: 32px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
+    text-align: start;
     max-width: 500px;
     max-height: 500px;
     border-radius: 1%;
 }
 .logo-box {
     display: flex;
-    justify-content: center;
+    justify-content: left;
 }
 
 .logo {
@@ -52,17 +52,17 @@ h2, h3, h4 {
 }
 
 h2 {
-    font-size: 12px;
+    font-size: 15px;
     margin-bottom: 5px;
 }
 
 h3 {
-    font-size: 12px;
+    font-size: 15px;
     margin-bottom: 5px;
 }
 
 h4 {
-    font-size: 16px;
+    font-size: 22px;
     margin-bottom: 20px;
     color: #007BFF;
 }
@@ -110,8 +110,8 @@ input[type="text"], input[type="password"] {
 
 .forgot-password {
     display: block;
-    margin-bottom: 20px;
-    color: #007BFF;
+    margin-bottom: 16px;
+    color: #0056b3;
     font-size: 12px;
     text-decoration: none;
 }
