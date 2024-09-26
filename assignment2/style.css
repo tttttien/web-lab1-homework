@@ -9,6 +9,11 @@ body {
     background-color: #f0f0f0;
 }
 
+p, span {
+    font-size: 14px;
+    text-align: center;
+}
+
 .header {
     display: flex;
     align-items: start;
@@ -141,6 +146,7 @@ body {
     padding: 2px;
     border: 1px solid #bbb;
 }
+
 .shapes-box {
     display: flex;
     border: 1px solid #bbb;
@@ -155,4 +161,55 @@ body {
     background-color: #ddd;
     border: 1px solid #bbb;
     padding: 10px 3px;
+}
+
+.colors-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr); /* 3 equal columns */
+    grid-template-rows: repeat(3, auto); /* 2 rows with height based on content */
+    gap: 1px;
+    padding: 2px;
+}
+
+.color-picker {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.big-color-picker {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.color {
+    width: 90%;
+    height: 90%;
+    cursor: pointer;
+}
+
+.paint-holder {
+    width: 80px;
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+canvas {
+    border: 5px solid #ccc;
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
 }
