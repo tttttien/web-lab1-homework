@@ -10,32 +10,32 @@ body {
 }
 
 p, span {
-    font-size: 14px;
+    font-size: 12px; /* Reduced by 2px */
     text-align: center;
 }
 
 .header {
     display: flex;
     align-items: start;
-    gap: 10px;
+    gap: 5px; /* Reduced by 5px */
     background-color: white;
-    padding: 5px;
+    padding: 2px; /* Reduced by 3px */
     border-bottom: 1px solid #ddd;
 }
 
 .icon {
-    width: 25px;
-    height: 25px;
+    width: 20px; /* Reduced by 5px */
+    height: 20px; /* Reduced by 5px */
     cursor: pointer;
 }
 
 .header-divider {
     border: 1px solid #ddd;
-    height: 20px;
+    height: 15px; /* Reduced by 5px */
 }
 
 .header-text {
-    font-size: 16px;
+    font-size: 14px; /* Reduced by 2px */
 }
 
 .tool-section {
@@ -51,10 +51,10 @@ p, span {
 }
 
 .nav-tab {
-    width: 80px;
-    padding: 5px 15px;
+    width: 75px; /* Reduced by 5px */
+    padding: 3px 10px; /* Reduced padding by 2px vertically and 5px horizontally */
     text-align: center;
-    font-size: 14px;
+    font-size: 12px; /* Reduced by 2px */
     cursor: pointer;
     border-bottom: 2px solid transparent;
 }
@@ -63,9 +63,9 @@ p, span {
     border-bottom: 2px solid #000000;
 }
 
-.nav-tab.file{
+.nav-tab.file {
     background-color: rgb(34, 98, 170);
-    color: white
+    color: white;
 }
 
 .nav-tab.active {
@@ -78,9 +78,9 @@ p, span {
 }
 
 .tool-divider {
-    border-left: 1px solid #ccc; 
-    border-right: 1px solid #ccc; 
-    padding: 10px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    padding: 5px; /* Reduced by 5px */
     height: auto;
     display: flex;
     flex-direction: column;
@@ -90,8 +90,8 @@ p, span {
 
 .button-section {
     display: flex;
-    gap: 10px;
-    padding: 10px;
+    gap: 5px; /* Reduced by 5px */
+    padding: 5px; /* Reduced by 5px */
 }
 
 .big-icon-div {
@@ -104,12 +104,12 @@ p, span {
 }
 
 .icon-main {
-    width: 50px;
+    width: 45px; /* Reduced by 5px */
 }
 
 .tiny-icon {
-    width: 10px;
-    height: 10px;
+    width: 5px; /* Reduced by 5px */
+    height: 5px; /* Reduced by 5px */
     cursor: pointer;
 }
 
@@ -120,30 +120,30 @@ p, span {
     align-items: left;
     height: auto;
     cursor: pointer;
-    gap: 5px;
+    gap: 2px; /* Reduced by 3px */
 }
 
 .icon-text-pair {
     display: inline-flex;
-    align-items: center; /* Align icon and text vertically */
-    gap: 5px; /* Adjust the space between icon and text */
+    align-items: center;
+    gap: 2px; /* Reduced by 3px */
 }
 
 .tool-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
-    grid-template-rows: repeat(2, auto); /* 2 rows with height based on content */
-    gap: 10px;
-    padding: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 5px; /* Reduced by 5px */
+    padding: 5px; /* Reduced by 5px */
 }
 
 .shapes-grid {
     display: grid;
-    grid-template-columns: repeat(7, 1fr); /* 3 equal columns */
-    grid-template-rows: repeat(3, auto); /* 2 rows with height based on content */
-    gap: 2px;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 1px; /* Reduced by 1px */
     background-color: white;
-    padding: 2px;
+    padding: 1px; /* Reduced by 1px */
     border: 1px solid #bbb;
 }
 
@@ -160,20 +160,20 @@ p, span {
     cursor: pointer;
     background-color: #ddd;
     border: 1px solid #bbb;
-    padding: 10px 3px;
+    padding: 5px 1px; /* Reduced by 5px horizontally and 2px vertically */
 }
 
 .colors-grid {
     display: grid;
-    grid-template-columns: repeat(10, 1fr); /* 3 equal columns */
-    grid-template-rows: repeat(3, auto); /* 2 rows with height based on content */
-    gap: 1px;
-    padding: 2px;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 0.5px; /* Reduced by 0.5px */
+    padding: 1px; /* Reduced by 1px */
 }
 
 .color-picker {
-    width: 25px;
-    height: 25px;
+    width: 20px; /* Reduced by 5px */
+    height: 20px; /* Reduced by 5px */
     background-color: white;
     border: 1px solid #ddd;
     cursor: pointer;
@@ -183,8 +183,8 @@ p, span {
 }
 
 .big-color-picker {
-    width: 50px;
-    height: 50px;
+    width: 45px; /* Reduced by 5px */
+    height: 45px; /* Reduced by 5px */
     background-color: white;
     border: 1px solid #ddd;
     cursor: pointer;
@@ -200,9 +200,9 @@ p, span {
 }
 
 .paint-holder {
-    width: 100px;
+    width: 95px; /* Reduced by 5px */
     display: flex;
-    margin-top: 10px;
+    margin-top: 5px; /* Reduced by 5px */
     justify-content: center;
 }
 
