@@ -24,8 +24,8 @@ p, span {
 }
 
 .icon {
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     cursor: pointer;
 }
 
@@ -141,7 +141,7 @@ p, span {
     display: grid;
     grid-template-columns: repeat(7, 1fr); /* 3 equal columns */
     grid-template-rows: repeat(3, auto); /* 2 rows with height based on content */
-    gap: 10px;
+    gap: 2px;
     background-color: white;
     padding: 2px;
     border: 1px solid #bbb;
@@ -172,8 +172,8 @@ p, span {
 }
 
 .color-picker {
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     background-color: white;
     border: 1px solid #ddd;
     cursor: pointer;
@@ -183,8 +183,8 @@ p, span {
 }
 
 .big-color-picker {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     background-color: white;
     border: 1px solid #ddd;
     cursor: pointer;
@@ -200,7 +200,7 @@ p, span {
 }
 
 .paint-holder {
-    width: 80px;
+    width: 100px;
     display: flex;
     margin-top: 10px;
     justify-content: center;
